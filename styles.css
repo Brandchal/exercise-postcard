@@ -15,13 +15,13 @@ body{
      height: 25%;
 }
 
-#title{
-    width: 80%;
+#titleheader{
+    width: 75%;
     height: 100%;
 }
 
-#img{
-    width: 20%;
+#imgheader{
+    width: 30%;
     height: 100%;
 }
 /*--------------------------*/
@@ -29,6 +29,25 @@ body{
      display: flex;     
      width: 100%;
      height: 50%;
+}
+
+#textcontent{
+    width: 50%;
+    height: 100%;
+}
+#imputcontent{
+    width: 50%;
+    height: 100%;
+}
+
+ #imputcontent input{
+
+  margin-bottom: 20px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  
+
 }
 /*--------------------------*/
 .button{        
