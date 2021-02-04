@@ -5,19 +5,24 @@ body{
 .wrapper{
     background: white;
     width: 600px;
-    height: 475px;
+    height: 400px;
     margin: 0 auto; /*Centrar objeto*/
     margin-top: 125px;
+    border-radius: 5%;
+    font-size: 19px;
 }
 .header{
      display: flex;     
      width: 100%;
      height: 25%;
+     font-family: 'Averia Sans Libre', cursive;
+
 }
 
 #titleheader{
     width: 75%;
     height: 100%;
+    padding-left: 15px;
 }
 
 #imgheader{
@@ -28,8 +33,9 @@ body{
 
 #imgheaderico{
     width: 50%;
-    height: 50%;
-    margin: 20%;
+    height: 80%;
+    margin: 15%;
+    padding-left: 35px;
     
     
 }
@@ -43,10 +49,16 @@ body{
 #textcontent{
     width: 50%;
     height: 100%;
+    padding-left: 15px;
+    font-family: 'Averia Sans Libre', cursive;
+    font-size: 19px;
 }
 #imputcontent{
     width: 50%;
     height: 100%;
+    padding: 3%;
+
+    
 }
 
  #imputcontent input{
@@ -55,11 +67,23 @@ body{
   border-top: none;
   border-right: none;
   border-left: none;
-  
+  font-family: 'Averia Sans Libre', cursive;
+  font-size: 17px;
 
 }
 /*--------------------------*/
 .button{        
      width: 100%;
      height: 25%;
+     padding-left: 40%;
+     border-radius: 5%;
+     font-family: 'Averia Sans Libre', cursive;
+     
+}
+
+#button{
+     border-radius: 10%;
+     width: 125px;
+     height: 25px;
+     
 }
