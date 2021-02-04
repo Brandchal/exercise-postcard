@@ -23,6 +23,15 @@ body{
 #imgheader{
     width: 30%;
     height: 100%;
+   
+}
+
+#imgheaderico{
+    width: 50%;
+    height: 50%;
+    margin: 20%;
+    
+    
 }
 /*--------------------------*/
 .content{
